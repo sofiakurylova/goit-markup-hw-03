@@ -1,3 +1,4 @@
+
 a {
   text-decoration: none;
 }
@@ -36,15 +37,13 @@ body {
   color: #434455;
 }
 
-/* Общие стили контейнера */
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px; 
 }
 
-/* Стили для header */
 .header-nav {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
@@ -81,7 +80,7 @@ body {
 .nav-list {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 40px; 
 }
 
 .nav-link {
@@ -106,7 +105,7 @@ body {
 
 .contact-list {
   display: flex;
-  gap: 40px;
+  gap: 40px; 
 }
 
 .contact-link {
@@ -123,12 +122,10 @@ body {
   color: #404bbf;
 }
 
-/* Стили для hero-section */
 .hero-section {
   background-color: #2e2f42;
   text-align: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0; 
 }
 
 .hero-title {
@@ -163,24 +160,23 @@ body {
   background: #404bbf;
 }
 
-/* Стили для advantages-section */
 .advantages-section {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
 
 .advantages-title {
-  font-size: 0; /* Скрытый заголовок */
+  font-size: 0; 
 }
 
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 24px; 
 }
 
 .advantages-item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4); 
 }
 
 .item-title {
@@ -198,7 +194,6 @@ body {
   color: #434455;
 }
 
-/* Стили для team-section */
 .team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -224,7 +219,7 @@ body {
 .team-member {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
-  border-radius: 4px;
+  border-radius: 0 0 4px 4px; 
   text-align: center;
 }
 
@@ -244,7 +239,6 @@ body {
   margin-bottom: 32px;
 }
 
-/* Стили для portfolio-section */
 .portfolio-section {
   padding: 120px 0;
 }
@@ -280,7 +274,6 @@ body {
   color: #434455;
 }
 
-/* Стили для footer */
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -296,6 +289,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block; 
 }
 
 .footer-logo-text {
@@ -307,6 +301,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
-  max-width: 264px;
+  max-width: 264px; 
   margin: 0 auto;
 }
