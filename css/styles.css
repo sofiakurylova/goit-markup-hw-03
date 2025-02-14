@@ -37,13 +37,12 @@ body {
   color: #434455;
 }
 
-
 .container {
   max-width: 1158px;
   margin: 0 auto;
-  padding: 0 15px; 
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
 
 .header-nav {
   border-bottom: 1px solid #e7e9fc;
@@ -81,7 +80,7 @@ body {
 .nav-list {
   display: flex;
   align-items: center;
-  gap: 40px; 
+  gap: 40px;
 }
 
 .nav-link {
@@ -106,7 +105,7 @@ body {
 
 .contact-list {
   display: flex;
-  gap: 40px; 
+  gap: 40px;
 }
 
 .contact-link {
@@ -123,11 +122,11 @@ body {
   color: #404bbf;
 }
 
-
 .hero-section {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 0; 
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -162,7 +161,6 @@ body {
   background: #404bbf;
 }
 
-
 .advantages-section {
   padding: 120px 0;
   background-color: #f4f4fd;
@@ -175,9 +173,11 @@ body {
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px; 
+  gap: 24px;
+}
+
 .advantages-item {
-  width: calc((100% - 72px) / 4); 
+  width: calc((100% - 72px) / 4);
 }
 
 .item-title {
@@ -194,7 +194,6 @@ body {
   line-height: 1.5;
   color: #434455;
 }
-
 
 .team-section {
   background-color: #f4f4fd;
@@ -221,7 +220,7 @@ body {
 .team-member {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px; 
+  border-radius: 4px;
   text-align: center;
 }
 
@@ -240,7 +239,6 @@ body {
   color: #434455;
   margin-bottom: 32px;
 }
-
 
 .portfolio-section {
   padding: 120px 0;
@@ -277,7 +275,6 @@ body {
   color: #434455;
 }
 
-
 .footer-section {
   background-color: #2e2f42;
   padding: 100px 0;
@@ -293,7 +290,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-  display: inline-block; 
 }
 
 .footer-logo-text {
@@ -305,7 +301,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
-  max-width: 264px; 
+  max-width: 264px;
   margin: 0 auto;
 }
-
