@@ -32,7 +32,6 @@ body {
   color: #434455;
 }
 
-/* Общий контейнер */
 .container {
   max-width: 1158px;
   margin: 0 auto;
@@ -40,18 +39,17 @@ body {
   padding-right: 15px;
 }
 
-/* Секции */
 .section {
   padding: 120px 0;
 }
 
-/* Хедер */
 .header-nav {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #fff;
+  width: 1158px;
 }
 
 .header-container {
