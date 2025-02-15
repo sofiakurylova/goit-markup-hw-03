@@ -199,10 +199,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
-  border-top-left-radius: 0px; 
-  border-top-right-radius: 0px; 
-  border-top-right-radius: 4px; 
-  border-bottom-left-radius:4px;
+ 
 }
 
 
@@ -228,6 +225,10 @@ line-height: 1.11;
   width: calc((100% - 72px) / 4);
   border-radius: 4px;
   text-align: center;
+  border-top-left-radius: 0px; 
+  border-top-right-radius: 0px; 
+  border-top-right-radius: 4px; 
+  border-bottom-left-radius:4px;
 }
 
 .member-name {
@@ -304,10 +305,12 @@ line-height: 1.11;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block; 
 }
 
 .footer-logo-text {
   color: #f4f4fd;
+  
 }
 
 .footer-description {
