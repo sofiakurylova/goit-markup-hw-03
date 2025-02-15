@@ -183,7 +183,14 @@ body {
 }
 
 .advantages-item {
-  width: calc((100% - 72px) / 4);
+ background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    max-width: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   
   
 }
