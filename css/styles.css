@@ -220,6 +220,9 @@ line-height: 1.11;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-member {
@@ -246,9 +249,7 @@ line-height: 1.11;
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
-  margin-bottom: 32px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 
 /* Portfolio */
