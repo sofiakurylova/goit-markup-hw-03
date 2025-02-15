@@ -183,6 +183,9 @@ body {
 
 .advantages-item {
   width: calc((100% - 72px) / 4);
+  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   
 }
 
@@ -192,6 +195,7 @@ body {
   line-height: 1.2;
   color: #2e2f42;
   margin-bottom: 8px;
+  
   
 }
 
@@ -220,9 +224,7 @@ line-height: 1.11;
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  margin-bottom: 32px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
 }
 
 .team-member {
