@@ -49,12 +49,12 @@ body {
   justify-content: space-between;
   align-items: center;
   background: #fff;
-  width: 1158px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+  width: 1158px;
 }
 
 .nav-header {
