@@ -183,10 +183,7 @@ body {
 
 .advantages-item {
   width: calc((100% - 72px) / 4);
-  border-top-left-radius: 0px; 
-  border-top-right-radius: 0px; 
-  border-top-right-radius: 4px; 
-  border-bottom-left-radius:4px;
+  
 }
 
 .item-title {
@@ -229,6 +226,7 @@ line-height: 1.11;
   width: calc((100% - 72px) / 4);
   border-radius: 4px;
   text-align: center;
+  border-radius: 0px 0px 4px 4px; 
 
 }
 
