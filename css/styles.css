@@ -191,10 +191,7 @@ body {
   line-height: 1.2;
   color: #2e2f42;
   margin-bottom: 8px;
-  border-top-left-radius: 0px; 
-  border-top-right-radius: 0px; 
-  border-top-right-radius: 4px; 
-  border-bottom-left-radius:4px;
+  
 }
 
 .item-description {
@@ -202,6 +199,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  border-top-left-radius: 0px; 
+  border-top-right-radius: 0px; 
+  border-top-right-radius: 4px; 
+  border-bottom-left-radius:4px;
 }
 
 
