@@ -179,13 +179,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin-bottom: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .advantages-item {
   width: calc((100% - 72px) / 4);
-  margin-bottom: 32px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  
   
 }
 
